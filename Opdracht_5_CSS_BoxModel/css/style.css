@@ -1,0 +1,79 @@
+body {
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+h1 {
+  font-size: 2rem;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#main-header {
+  background-color: rgb(3, 185, 176);
+  color: #fff;
+}
+
+#navbar {
+  background-color: rgb(2, 139, 230);
+  color: #fff;
+  height: 100px;
+}
+
+#navbar ul {
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  color: rgb(18, 247, 247);
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+  /*float: right;*/
+}
+
+#navbar a:hover {
+  color: rgb(247, 174, 18);
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+  /*float: right;*/
+}
+
+#showcase {
+  background-image: url("../images/santa_teresa.jpg");
+  background-position: center right;
+  min-height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-size: cover;
+}
+
+#showcase h1 {
+  color: rgb(250, 215, 18);
+  font-size: 3em;
+  line-height: 1.6em;
+  padding-top: 20px;
+}
+
+@media (max-width: 400px) {
+  #main {
+    width: 100%;
+    float: none;
+  }
+  #navbar li {
+    display: block;
+  }
+}
